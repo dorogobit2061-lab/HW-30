@@ -1,0 +1,49 @@
+.wrapper {
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;}
+
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation: moveBox 4s linear infinite;
+}
+
+@keyframes moveBox {
+  0% {
+    left: 100px;
+    top: 100px;
+      background-color: red;
+  }
+
+  20% {
+    left: 0;
+    top: 100px;
+    background-color: blue;
+  }
+
+  40% {
+    left: 0;
+    top: 200px;
+    background-color: green;
+  }
+
+  60% {
+    left: 200px;
+    top: 200px;
+    background-color: yellow;
+  }
+    80% {
+         left: 200px;
+    top: 100px;
+    background-color: red;
+    }
+  100% {
+     left: 100px;
+    top: 100px;
+      background-color: red;
+  }
+
+
+}
